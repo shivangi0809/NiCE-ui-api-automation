@@ -1,0 +1,16 @@
+{
+  "name": "playwright-automation-framework",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test -c playwright.ui.config.ts",
+    "test:api": "playwright test -c playwright.api.config.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.9.2"
+  }
+}
