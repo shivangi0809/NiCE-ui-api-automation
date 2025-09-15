@@ -8,7 +8,7 @@ export class HomePage {
 
   constructor(page: Page) {
     this.page = page;
-    this.bookingTab = page.locator('li.nav-item > a.nav-link[href="/#rooms"]');
+    this.bookingTab = page.locator('a[href="/#rooms"]');
     this.bookNowBtn = page.locator('.room-card .card-footer a.btn.btn-primary').last();
     this.reserveNowBtn = page.locator('#doReservation');
   }
