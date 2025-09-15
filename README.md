@@ -1,4 +1,4 @@
-**ladbrokes-automation**
+**NiCE-automation**
 
 **Install project locally**
 
